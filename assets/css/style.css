@@ -274,9 +274,16 @@ nav{
 
 #members-meet {
     font-size: 35px;
-    font-family: 'Oswald';
+    font-family: 'Oswald Bold';
     text-transform: uppercase;
     color: #ee8b0a;
+}
+
+#latest-news-title {
+  font-size: 35px;
+  font-family: 'Oswald Bold';
+  text-transform: uppercase;
+  color: #ee8b0a;
 }
 
 .partners-title {
