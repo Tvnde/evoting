@@ -150,7 +150,7 @@ nav{
 
 .second-section, .third-section, .fourth-section {
     position: relative;
-    margin: 3%;
+    margin: 7%;
 }
 
 .register-section{
@@ -187,10 +187,6 @@ nav{
 .about {
     position: relative;
     margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 #about-title {
@@ -200,26 +196,74 @@ nav{
     color: #eea92a;
 }
 
-#about-details {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .about-img {
   margin-right: 3%;
 }
 
 .about-text {
-  width: 300px;
+  width: 400px;
+  font-family: 'Ubuntu Bold';
+  color: #737373;
+  letter-spacing: 2px;
+}
+
+.about-more .btn {
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+  transition: 0.4s linear;
+  padding-bottom: 5px;
+}
+
+.about-more button i {
+  font-size: 36px;
+  color: #eea92a;
+  margin-left:4px;
+  margin-top: 10px;
 }
 
 #members-meet {
-    font-size: 30px;
+    font-size: 35px;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    color: #eea92a;
 }
+
+.partners-title {
+  font-size: 30px;
+  font-family: 'Oswald';
+  color: #eea92a;
+}
+
+
 
 .scroll-btns {
     display: flex;
+}
+
+.scroll-btns button {
+  width: 80px;
+  height: 80px;
+}
+
+.scroll-btns button i {
+  font-size: 34px;
+}
+
+.scroll-btns .btn-left {
+  border-radius: 50%;
+  border: 3px solid gray;
+}
+
+.scroll-btns .btn-right {
+  border-radius: 50%;
+  border: 3px solid gray;
 }
 
 .board-members {
@@ -240,7 +284,7 @@ nav{
     margin: 20px 0 100px 22%;
     padding: 3px 20px;
     width: 45%!important;
-    background-color: brown;
+    background-color: #eea92a;
 }
 
 .members-btn-login{
