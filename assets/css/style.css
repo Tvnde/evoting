@@ -68,8 +68,23 @@ nav{
   border: 1px solid #eea92a!important;
 }
 
+.button1 a {
+  text-decoration: none;
+  color: #eea92a;
+}
+.button2 a {
+  text-decoration: none;
+  color: white;
+}
+
 .button1:hover {
   background-color: #eea92a;
+  color: white!important;
+}
+
+.button1:hover a {
+  text-decoration: none;
+  color: white;
 }
 
 .button2 {
@@ -155,6 +170,10 @@ nav{
 
 }
 
+.member-banner-title {
+  font-family: 'Ubuntu Bold';
+}
+
 .second-section, .third-section, .fourth-section {
     position: relative;
     margin: 7%;
@@ -162,6 +181,12 @@ nav{
 
 .register-section{
     position: relative;
+}
+
+#register-title {
+  font-size: 25px;
+  font-family: 'Ubuntu Bold';
+  color: #eea92a;
 }
 
 .fifth-section {
@@ -288,10 +313,19 @@ nav{
 }
 
 .members-btn-join {
-    margin: 20px 0 100px 22%;
-    padding: 3px 20px;
-    width: 45%!important;
+    margin: 20px 0 100px -4%;
+    padding: 3px 30px;
+    width: 110%!important;
     background-color: #eea92a;
+    color: white;
+}
+
+.members-btn-join2 {
+  margin: 20px 0 100px 20%;
+  padding: 3px 30px;
+  width: 60%!important;
+  background-color: #eea92a;
+  color: white;
 }
 
 .members-btn-login{
@@ -476,10 +510,28 @@ nav{
     width: 60%;
     margin-top: 20px;
     margin-left: 20%;
+    font-size: 22px;
+    font-family: 'Ubuntu';
+}
+
+.register-text2 {
+  font-size: 20px;
+  font-family: 'Ubuntu Medium';
 }
 
 #members-reg-form {
     margin: 4% 25%;
+}
+
+#members-reg-form label {
+  font-size: 13px;
+  color: rgb(146, 146, 146);
+  text-transform: uppercase;
+}
+
+#members-reg-form input {
+  height: 60px;
+  border: 3px solid rgb(224, 224, 224);
 }
 
 .login-content {
