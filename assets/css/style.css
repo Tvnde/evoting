@@ -339,12 +339,11 @@ nav{
     overflow: hidden;
 }
 
-.events-holder {
+.all-events {
   width: 100%!important;
     margin-top: 40px;
     display: flex;
     flex-direction: row;
-    overflow: hidden;
 }
 
 .member-details {
