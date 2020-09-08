@@ -186,9 +186,13 @@ nav{
   font-family: 'Ubuntu Bold';
 }
 
-.second-section, .third-section, .fourth-section {
+.second-section, .third-section{
     position: relative;
     margin: 7%;
+}
+
+.fourth-section {
+  padding: 7%;
 }
 
 .register-section{
@@ -335,6 +339,14 @@ nav{
     overflow: hidden;
 }
 
+.events-holder {
+  width: 100%!important;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
 .member-details {
   margin-top: 10%;
   font-family: 'Ubuntu Bold';
@@ -358,6 +370,42 @@ nav{
     ;
       transition: 0.4s linear;
 }
+
+.an-event {
+  position: relative;
+  width: 600px!important;
+  min-width: 600px!important;
+  line-height: 600px;
+  height: 600px!important;
+  margin-right: 50px;
+  box-sizing: border-box;
+  box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+    transition: 0.4s linear;
+    
+  background-image: url(../images/Latest\ events.jpg);
+}
+
+.an-event {
+  background-color: transparent!important;
+}
+
+.an-event .content-point {
+  position: absolute;
+  top: 95%;
+  left: 70%;
+  width: 28%;
+  padding: 7px 3px;
+  background-color: ghostwhite;
+  border-radius: 5%;
+}
+
 
 .members-btn-join {
     margin: 20px 0 100px -4%;
