@@ -369,7 +369,24 @@ nav{
 }
 
 .submit-vote-btn {
-  
+  background-color: #08B278;
+  padding: 5px 40px;
+  color: white;
+}
+
+.submit-vote-btn:hover {
+  color: white;
+}
+
+.next-vote-btn {
+  border: 1px solid #ee8b0a;
+  padding: 5px 40px;
+  color: #ee8b0a;
+}
+
+.next-vote-btn:hover {
+  background-color: #ee8b0a;
+  color: white;
 }
 
 .site-footer
@@ -685,7 +702,7 @@ nav{
 }
 
 .btn-next-vote {
-    padding-left: 28%;
+    padding-left: 23%;
 }
 
 .terms-section {
