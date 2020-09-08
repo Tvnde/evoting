@@ -114,6 +114,13 @@ nav{
     background-size: contain;
 }
 
+.login-banner {
+  background-image:url(../images/Member\ login.jpg);
+  width: 98.7vw;
+  height: 100vh;
+  background-size: contain;
+}
+
 .banner-caption {
     position: absolute;
     display: flex;
@@ -485,8 +492,47 @@ nav{
     justify-content: center;
 }
 
+.login-content2 {
+  position: absolute;
+  display: flex;
+  background-color: rgba(49, 28, 20, 0.65);
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
 .side-text {
-    width: 60%;
+    width: 50%;
+    margin-left: 5%;
+    padding-left: 5%;
+    font-family: 'Ubuntu Bold';
+}
+
+.side-text .login-side-title {
+  font-size: 60px!important;
+}
+.side-text p {
+  font-size: 20px;
+  font-family: 'Ubuntu';
+}
+
+.vote-title {
+  font-family: 'Ubuntu Bold';
+}
+.form-inputs {
+  font-family: 'Ubuntu';
+  color: rgb(216, 215, 215);
+}
+
+.form-inputs input[type="text"] {
+  height: 50px;
+  border: 2px solid rgb(216, 215, 215);
+}
+
+.btn-vote .members-btn-login {
+  background-color: #eea92a;
+  color: white;
 }
 
 .container #vote-login {
@@ -499,6 +545,13 @@ nav{
 #vote-login .vote-title {
     padding-top: 20px;
     padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.vote-login-link {
+  text-decoration: none;
+  padding-left: 55%;
+  color: rgb(216, 215, 215);
 }
 
 .form-inputs {

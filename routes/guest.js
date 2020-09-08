@@ -8,7 +8,7 @@ const { route } = require('../main');
 router.get('/', GuestController.HomePage);
 router.get('/members', GuestController.MembersPage);
 router.get('/voters-login', GuestController.VotingLogin);
-router.get('/login', GuestController.VotingLogin);
+router.get('/login', GuestController.LoginPage);
 router.get('/terms', GuestController.TermsPage);
 router.get('/voting-page',GuestController.VotingPage);
 
