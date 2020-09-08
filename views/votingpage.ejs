@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/guest/head.ejs') %>
+    <body>
+        <%- include('./partials/guest/navbar2.ejs') %>
+        <div class="terms-banner">
+            <div class="terms-content">
+                <h3 class="text-white">Voting Page</h3>
+
+            </div>
+        </div>
+        <div class="second-section">
+            <div class="vote-section">
+                <ul class="list-group">
+                    <li class="list-group-item active"><h5>YOUR CANDIDATE FOR PRESIDENT</h5></li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-md-9"><h5>DR. IDOWU OLAIDE</h5></div>
+                            <div class="col-md-3"><input type="checkbox" id="vote-check"/></div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-md-9"><h5>PROF. BABAJIDE AYO</h5></div>
+                            <div class="col-md-3"><input type="checkbox" id="vote-check"/></div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-md-9"><h5>MR. SHINA FELA</h5></div>
+                            <div class="col-md-3"><input type="checkbox" id="vote-check"/></div>
+                        </div>
+                    </li>
+                  </ul>
+                  <div class="vote-btns row">
+                      <div class="col-md-6"><button type="button" class="btn btn-success btn-md">SUBMIT</button></div>
+                        <div class="col-md-6 btn-next-vote"><button type="button" class="btn btn-outline-danger btn-md">NEXT<span>dd</span></button></div>
+                  </div>
+            </div>
+        </div>
+        <%- include('./partials/guest/footer.ejs') %>
+    </body>
+</html>

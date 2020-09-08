@@ -1,0 +1,502 @@
+@font-face {
+  font-family: 'Ubuntu';
+  src: url(../fonts/Ubuntu/Ubuntu-R.ttf);
+}
+
+@font-face {
+  font-family: 'Ubuntu Bold';
+  src: url(../fonts/Ubuntu/Ubuntu-B.ttf);
+}
+
+@font-face {
+  font-family: 'Ubuntu Ligt';
+  src: url(../fonts/Ubuntu/Ubuntu-L.ttf);
+}
+
+@font-face {
+  font-family: 'Ubuntu Medium';
+  src: url(../fonts/Ubuntu/Ubuntu-M.ttf);
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url(../fonts/Oswald/Oswald-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Oswald Light';
+  src: url(../fonts/Oswald/Oswald-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Oswald Bold';
+  src: url(../fonts/Oswald/Oswald-Bold.ttf);
+}
+
+.full-page {
+    margin: 0!important;
+    padding: 0!important;
+}
+
+nav, .banner-buttons, #about-title {
+    text-transform: uppercase;
+}
+
+nav{
+  font-family: 'Ubuntu';
+}
+
+.nav-item {
+  margin-right: 10px;
+  font-size: 13px;
+}
+
+
+.active .nav-link{
+  color: #eea92a !important;
+  border-bottom: 5px solid #eea92a;
+}
+.banner-title h2 {
+  font-family: 'Ubuntu Bold';
+}
+
+.banner-text {
+  font-family: 'Ubuntu';
+}
+
+.button1 {
+  border: 1px solid #eea92a!important;
+}
+
+.button1:hover {
+  background-color: #eea92a;
+}
+
+.button2 {
+  background-color: #eea92a;
+  border: 1px solid #eea92a;
+}
+
+.page-banner {
+    background-image: url(../images/landing-page-banner.jpg);
+    width: 98.7vw;
+    height: 100vh;
+    background-size: contain;
+}
+
+.member-banner {
+    background-image: url(../images/Member\ Sign\ up.jpg);
+    width: 98.7vw;
+    height: 50vh;
+    background-size: contain;
+}
+
+.terms-banner {
+    background-image: url(../images/Terms\ picture.jpg);
+    width: 98.7vw;
+    height: 25vh;
+    background-size: contain;
+}
+
+.terms-content {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 35%;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-banner-voters {
+    background-image:url(../images/Voters\ login.jpg);
+    width: 98.7vw;
+    height: 100vh;
+    background-size: contain;
+}
+
+.banner-caption {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+}
+
+.banner-title, .banner-text {
+    position: relative;
+}
+
+.banner-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.member-banner-caption {
+    position: absolute;
+    background-color: rgba(24, 39, 51, 0.85);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.second-section, .third-section, .fourth-section {
+    position: relative;
+    margin: 3%;
+}
+
+.register-section{
+    position: relative;
+}
+
+.fifth-section {
+    position: relative;
+    background-image: url(../images/Our\ partners.jpg);
+    width: 98.7vw;
+    height: 110vh;
+    background-size: contain;
+    margin-bottom: 60px;
+}
+
+.partners {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    top: 100px;
+    justify-content: center;
+}
+
+.sixth-section {
+    position: relative;
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-title {
+  font-family: 'Oswald Bold';
+    font-size: 30px;
+    margin-bottom: 10%;
+    color: #eea92a;
+}
+
+#about-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-img {
+  margin-right: 3%;
+}
+
+.about-text {
+  width: 300px;
+}
+
+#members-meet {
+    font-size: 30px;
+}
+
+.scroll-btns {
+    display: flex;
+}
+
+.board-members {
+    width: 400%!important;
+    margin-top: 40px;
+    display: flex;
+}
+
+.board-member {
+    position: relative;
+    width: 350px!important;
+    height: 260px!important;
+    padding-right: 100px;
+    box-sizing: border-box;
+}
+
+.members-btn-join {
+    margin: 20px 0 100px 22%;
+    padding: 3px 20px;
+    width: 45%!important;
+    background-color: brown;
+}
+
+.members-btn-login{
+    width: 100%!important;
+    padding: 3px 15px;
+    background-color: violet;
+    margin: 20px 0 0 0;
+}
+
+.members-btn-vote {
+  width: 60%!important;
+  padding: 3px 15px;
+  background-color: violet;
+  margin: 20px 0 0 20%;
+}
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+.register-text {
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+#members-reg-form {
+    margin: 4% 25%;
+}
+
+.login-content {
+    position: absolute;
+    display: flex;
+    background-color: rgba(24, 39, 51, 0.85);
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-text {
+    width: 60%;
+}
+
+.container #vote-login {
+    background-color: white;
+    height: 370px;
+    width: 350px;
+    border-radius: 4%;
+}
+
+#vote-login .vote-title {
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.form-inputs {
+    padding: 10px 30px 0 30px;
+}
+
+.vote-section {
+    width: 35%;
+    margin-left: 33%;
+}
+
+.vote-section .list-group {
+    border-radius: 2%;
+}
+
+.list-group-item span {
+    margin-left: 20%;
+}
+
+.vote-btns {
+    margin-top: 20px;
+}
+
+.btn-next-vote {
+    padding-left: 28%;
+}
+
+.terms-section {
+    width: 50%;
+    margin-left: 25%;
+    border: 1px solid black;
+    padding: 30px;
+}
+
+.terms-section h3 {
+    margin-bottom: 30px;
+}
+
+.terms-section p {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
