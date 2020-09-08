@@ -65,7 +65,7 @@ nav{
 }
 
 .button1 {
-  border: 1px solid #ee8b0a!important;
+  border: 1px solid white!important;
 }
 
 .button1 a {
@@ -91,6 +91,8 @@ nav{
   background-color: #ee8b0a;
   border: 1px solid #ee8b0a;
 }
+
+
 
 .page-banner {
     background-image: url(../images/landing-page-banner.jpg);
@@ -160,6 +162,14 @@ nav{
 
 }
 
+.banner-buttons .button1 {  
+  padding: 5px 40px;
+}
+
+.banner-buttons .button2 { 
+  padding: 5px 40px;
+}
+
 .member-banner-caption {
     position: absolute;
     background-color: rgba(24, 39, 51, 0.85);
@@ -201,12 +211,9 @@ nav{
 }
 
 .partners {
-    position: absolute;
-    display: flex;
+    position: relative;
     width: 100%;
-    height: 100%;
-    top: 100px;
-    justify-content: center;
+    height: 100%; 
 }
 
 .sixth-section {
@@ -223,6 +230,11 @@ nav{
     margin-top: 10px;
 }
 
+#about-details {
+  display: flex;
+  flex-direction: row;
+}
+
 #about-title {
   font-family: 'Oswald Bold';
     font-size: 30px;
@@ -231,15 +243,13 @@ nav{
 }
 
 
-.about-img {
-  margin-right: 3%;
-}
 
 .about-text {
-  width: 400px;
-  font-family: 'Ubuntu Bold';
+  width: 60%;
+  font-family: 'Ubuntu Medium';
   color: #737373;
   letter-spacing: 2px;
+  font-size: 18px;
 }
 
 .about-more .btn {
@@ -270,9 +280,19 @@ nav{
 }
 
 .partners-title {
+  position: absolute;
   font-size: 30px;
-  font-family: 'Oswald';
+  font-family: 'Oswald Bold';
   color: #ee8b0a;
+  top: 15%;
+  left: 40%;
+
+}
+
+.partners-logos {
+    position: absolute;
+    top: 40%;
+    left: 20%;
 }
 
 
@@ -346,6 +366,7 @@ nav{
   width: 60%!important;
   background-color: #ee8b0a;
   color: white;
+  font-family: 'Ubuntu';
 }
 
 .members-btn-login{
@@ -388,6 +409,11 @@ nav{
   background-color: #ee8b0a;
   color: white;
 }
+
+.members-info {
+  font-family: 'Ubuntu Bold';
+}
+
 
 .site-footer
 {
