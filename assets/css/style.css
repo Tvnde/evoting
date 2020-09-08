@@ -53,8 +53,8 @@ nav{
 
 
 .active .nav-link{
-  color: #eea92a !important;
-  border-bottom: 5px solid #eea92a;
+  color: #ee8b0a !important;
+  border-bottom: 5px solid #ee8b0a;
 }
 .banner-title h2 {
   font-family: 'Ubuntu Bold';
@@ -65,12 +65,12 @@ nav{
 }
 
 .button1 {
-  border: 1px solid #eea92a!important;
+  border: 1px solid #ee8b0a!important;
 }
 
 .button1 a {
   text-decoration: none;
-  color: #eea92a;
+  color: #ee8b0a;
 }
 .button2 a {
   text-decoration: none;
@@ -78,7 +78,7 @@ nav{
 }
 
 .button1:hover {
-  background-color: #eea92a;
+  background-color: #ee8b0a;
   color: white!important;
 }
 
@@ -88,8 +88,8 @@ nav{
 }
 
 .button2 {
-  background-color: #eea92a;
-  border: 1px solid #eea92a;
+  background-color: #ee8b0a;
+  border: 1px solid #ee8b0a;
 }
 
 .page-banner {
@@ -121,7 +121,7 @@ nav{
     align-items: center;
     justify-content: center;
     font-family: 'Ubuntu Bold';
-    color: #eea92a;
+    color: #ee8b0a;
 }
 
 .login-banner-voters {
@@ -188,7 +188,7 @@ nav{
 #register-title {
   font-size: 25px;
   font-family: 'Ubuntu Bold';
-  color: #eea92a;
+  color: #ee8b0a;
 }
 
 .fifth-section {
@@ -227,7 +227,7 @@ nav{
   font-family: 'Oswald Bold';
     font-size: 30px;
     margin-bottom: 10%;
-    color: #eea92a;
+    color: #ee8b0a;
 }
 
 
@@ -257,7 +257,7 @@ nav{
 
 .about-more button i {
   font-size: 36px;
-  color: #eea92a;
+  color: #ee8b0a;
   margin-left:4px;
   margin-top: 10px;
 }
@@ -266,13 +266,13 @@ nav{
     font-size: 35px;
     font-family: 'Oswald';
     text-transform: uppercase;
-    color: #eea92a;
+    color: #ee8b0a;
 }
 
 .partners-title {
   font-size: 30px;
   font-family: 'Oswald';
-  color: #eea92a;
+  color: #ee8b0a;
 }
 
 
@@ -290,35 +290,53 @@ nav{
   font-size: 34px;
 }
 
-.scroll-btns .btn-left {
+.scroll-btns .btn-left, .scroll-btns .btn-left1 {
   border-radius: 50%;
   border: 3px solid gray;
 }
 
-.scroll-btns .btn-right {
+.scroll-btns .btn-right, .scroll-btns .btn-right1 {
   border-radius: 50%;
   border: 3px solid gray;
 }
 
 .board-members {
-    width: 400%!important;
+    width: 100%!important;
     margin-top: 40px;
     display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.member-details {
+  margin-top: 10%;
+  font-family: 'Ubuntu Bold';
 }
 
 .board-member {
     position: relative;
-    width: 350px!important;
+    width: 650px!important;
+    min-width: 650px;
+    line-height: 260px;
     height: 260px!important;
-    padding-right: 100px;
+    margin-right: 50px;
     box-sizing: border-box;
+    box-shadow:
+      0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+      0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+      0 12.5px 10px rgba(0, 0, 0, 0.06),
+      0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+      0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+      0 100px 80px rgba(0, 0, 0, 0.12)
+    ;
+      transition: 0.4s linear;
 }
 
 .members-btn-join {
     margin: 20px 0 100px -4%;
     padding: 3px 30px;
     width: 110%!important;
-    background-color: #eea92a;
+    background-color: #ee8b0a;
     color: white;
 }
 
@@ -326,22 +344,32 @@ nav{
   margin: 20px 0 100px 20%;
   padding: 3px 30px;
   width: 60%!important;
-  background-color: #eea92a;
+  background-color: #ee8b0a;
   color: white;
 }
 
 .members-btn-login{
     width: 100%!important;
     padding: 3px 15px;
-    background-color: violet;
     margin: 20px 0 0 0;
 }
 
 .members-btn-vote {
   width: 60%!important;
   padding: 3px 15px;
-  background-color: violet;
   margin: 20px 0 0 20%;
+}
+
+.members-btn-vote2 {
+  width: 40%!important;
+  padding: 3px 15px;
+  margin: 20px 0 0 30%;
+  background-color: #08B278;
+  color: white;
+}
+
+.submit-vote-btn {
+  
 }
 
 .site-footer
@@ -539,7 +567,7 @@ nav{
 .login-content {
     position: absolute;
     display: flex;
-    background-color: rgba(24, 39, 51, 0.85);
+    background-color: rgba(59, 32, 16, 0.555);
     height: 100%;
     width: 100%;
     align-items: center;
@@ -585,13 +613,13 @@ nav{
 }
 
 .btn-vote .members-btn-login {
-  background-color: #eea92a;
+  background-color: #ee8b0a;
   color: white;
 }
 
 .container #vote-login {
     background-color: white;
-    height: 370px;
+    height: 420px;
     width: 350px;
     border-radius: 4%;
 }
@@ -663,13 +691,23 @@ nav{
 .terms-section {
     width: 50%;
     margin-left: 25%;
-    border: 1px solid black;
     padding: 30px;
+    box-shadow:
+      0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+      0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+      0 12.5px 10px rgba(0, 0, 0, 0.06),
+      0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+      0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+      0 100px 80px rgba(0, 0, 0, 0.12)
+    ;
+      transition: 0.4s linear;
 }
 
 .terms-section h3 {
-    margin-bottom: 30px;
+  font-family: 'Ubuntu Bold';
+  margin-bottom: 30px;
 }
+
 
 .terms-section p {
     display: flex;
@@ -677,4 +715,15 @@ nav{
     width: 100%;
     align-items: center;
     justify-content: center;
+    font-family: 'Ubuntu';
+    letter-spacing: 3px;
+}
+
+.terms-agreement label {
+  font-family: 'Ubuntu';
+  letter-spacing: 1px;
+}
+
+.btn-vote2 {
+  background-color: #08B278;
 }
